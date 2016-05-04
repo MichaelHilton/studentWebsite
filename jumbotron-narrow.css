@@ -6,6 +6,10 @@ body{
   font-size:14px;
 }
 
+.navbar .active{
+  background-color: orange;
+}
+
 .schoolText{
   padding-left:10px;
   float:left;
