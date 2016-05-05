@@ -149,6 +149,13 @@ body {
   font-size: 21px;
 }
 
+#publications{
+  font-size:14px;
+}
+
+.authors{
+  color:#385E86;
+}
 
 /* Supporting marketing content */
 .marketing {
