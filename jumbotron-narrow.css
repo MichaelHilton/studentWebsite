@@ -1,6 +1,70 @@
 body{
   font-size:18px;
    position: relative; 
+
+}
+
+.fa{
+  color:#C34500;
+}
+
+#headshot{ 
+  /*border: 10px solid #385E86;*/
+  /*border: 10px solid #C34500;*/
+  }
+
+.navbar .active{
+  background-color:#C34500;
+  color:#F3D08E;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #C34500;
+    border-color: #F5F2ED;
+}
+
+
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #F5F2ED;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+
+
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+    color: #F5F2ED;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+    color: #F5F2ED;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
 }
 
 
@@ -22,9 +86,6 @@ margin-bottom: 10px;}
   font-size:14px;
 }
 
-.navbar .active{
-  background-color: orange;
-}
 
 .schoolText{
   padding-left:10px;
@@ -80,6 +141,8 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  color: #373737;
+    background-color: #A7C4C9;
 }
 .jumbotron .btn {
   padding: 14px 24px;
